@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>popup</title>
+	<link rel="stylesheet" href="index.css">
+</head>	
+
+<body>
+	<div class="backgroundcolor">
+		<div id="popup">
+           <div class="text">
+           	<h1>Dont leave directly</h1>
+           	<p>please logout</p><br>
+           	<button onclick="closepopup()">ok</button>
+
+           </div>
+           <img src="https://static.thenounproject.com/png/1014242-200.png" class="cross" onclick="closepopup()"/>
+			
+		</div>
+
+	</div>
+	<script type="text/javascript">
+		var modelbox=document.getElementById("popup");
+
+		document.onmouseleave=function(){
+			popup.style.display="block";
+		}
+		function closepopup(){
+			popup.style.display="none";
+
+		}
+		
+	</script>
+
+</body>
+</html>

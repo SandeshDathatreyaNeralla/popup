@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding:0;
+	
+}
+.backgroundcolor{
+	background-image:linear-gradient(90deg,#383CC1,#51E1ED);
+	width:100%;
+	height:100vh;
+
+
+}
+#popup{
+	position: fixed;
+	top:50%;
+	left:50%;
+    transform:translate(-50%,-50%);
+	width:80%;
+	border-radius: 5px;
+    max-width: 400px;
+   background-image: url("https://static.vecteezy.com/system/resources/previews/001/849/553/original/modern-gold-background-free-vector.jpg");
+    overflow:hidden;
+    display: none;
+}
+.text{
+	padding:20px 40px 40px 40px;
+	font-size: 14px;
+
+}
+.text h1{
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 10px;
+
+}
+.text p{
+	font-size: 20px;
+	font-weight: 300;
+	color:red;
+}
+.text button{
+	cursor:pointer;
+	background-color:#1C8D73;
+	padding:5px 20px;
+	border-radius: 10px;
+	outline: none;
+	border: none;
+	color:white;
+}
+.cross{
+	width: 15px;
+	height:15px;
+	border-radius: 50%;
+	top:15px;
+	right:15px;
+	cursor:pointer;
+	position:absolute;
+}
